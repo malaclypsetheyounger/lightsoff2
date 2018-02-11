@@ -19,6 +19,9 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("hades.light.mal_2.lightsoff", appContext.packageName)
+        assertEquals(
+                "hades.light.mal_2.lightsoff",
+                appContext.packageName
+        )
     }
 }
